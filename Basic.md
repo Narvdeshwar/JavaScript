@@ -119,11 +119,11 @@ console.log(typeof null);
 console.log(typeof undefined);
 console.log(typeof 0);
 
-//ternary operator
-/**
+# ternary operator
  * ans = condition ?  truth ? false
-*/
+```js
 let naam;
 let age=34;
 naam=age>25 ? "ravi" :"suraj";
 console.log(naam);
+```
