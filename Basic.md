@@ -41,8 +41,7 @@ console.log(fullName);
  * null
  * BigInt
  * Symbol
-
-// to know the datatype of any variable we use `typeof' operator
+ * to know the datatype of any variable we use `typeof' operator
 
 ```js
 let name1="raju"
