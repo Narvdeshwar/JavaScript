@@ -3,13 +3,15 @@
 console.log("hello world");
 ```
 # different data types in js
-## var 
-## let 
-## const 
+* var
+* let 
+* const
+```js
 var name="ravi"
 console.log(name);
 let Name="shyam"
 console.log(Name);
+```
 
 # string 
 ```js
@@ -70,6 +72,4 @@ console.log("data type of naam->",typeof naam);
 //naam=naam+""
 naam=String(name)
 console.log("data type of naam->",typeof naam);
-```
-
 ```
