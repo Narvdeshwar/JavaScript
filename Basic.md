@@ -1,16 +1,18 @@
-//printing message
+# printing message
+```js
 console.log("hello world");
-
-//different data types in js
-//var 
-//let 
-// const 
+```
+# different data types in js
+## var 
+## let 
+## const 
 var name="ravi"
 console.log(name);
 let Name="shyam"
 console.log(Name);
 
-// string 
+# string 
+```js
 let firstName="harsh"
 //String.length method is used to find the length of string
 console.log(firstName.length);
@@ -27,8 +29,8 @@ let fullName="ravi kumar shastri"
 console.log(fullName);
 fullName=fullName.slice(0,5)
 console.log(fullName);
-
-//primitive data types
+```
+# primitive data types
 /**
  * number
  * string
@@ -41,10 +43,12 @@ console.log(fullName);
 
 // to know the datatype of any variable we use `typeof' operator
 
+```js
 let name1="raju"
 console.log(typeof name1);
+```
 
-// conversion of string to number and vice-versa
+# conversion of string to number and vice-versa
 /**
  * number to string
  * method 1= num=num+""
@@ -55,14 +59,17 @@ console.log(typeof name1);
  * 
  */
 
+```js
 let num="55"
 console.log("data type of number->",typeof num);
 //num=+num
 num=Number(num)
 console.log("data type of number->",typeof num);
-
 let naam=123
 console.log("data type of naam->",typeof naam);
 //naam=naam+""
 naam=String(name)
 console.log("data type of naam->",typeof naam);
+```
+
+```
