@@ -69,3 +69,63 @@ console.log("data type of naam->",typeof naam);
 naam=String(name)
 console.log("data type of naam->",typeof naam);
 ```
+```js
+// undefined data type
+let name;
+console.log(typeof name);
+
+// null datatype
+let Name=null;
+console.log(typeof Name);
+
+// bigint data type
+let number=123n;
+let number1=BigInt(123)
+console.log(typeof number);
+console.log(typeof number1);
+
+//boolean 
+console.log(1==1);
+console.log(2==1);
+// == checks only the value whereas === checks both value as well data type
+let num1=12;
+let num2=12;
+let num3='12';
+console.log(num1==num2);
+console.log('wrong answer',num1==num3);
+
+console.log(num1===num3);
+
+// != checks only the value whereas !== checks both value as well data type
+let a=12;
+let b='13'
+let c=13
+console.log(a!=c);
+console.log(a!=b);
+console.log(a!==b);
+```
+
+//truthy and falsey value
+//falsey value
+/**
+ * false
+ * ""
+ * null
+ * undefined
+ * 0
+ * expect above evrything is true
+ */
+console.log(typeof false);
+console.log(typeof "");
+console.log(typeof null);
+console.log(typeof undefined);
+console.log(typeof 0);
+
+//ternary operator
+/**
+ * ans = condition ?  truth ? false
+*/
+let naam;
+let age=34;
+naam=age>25 ? "ravi" :"suraj";
+console.log(naam);
