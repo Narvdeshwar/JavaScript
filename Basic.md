@@ -113,14 +113,16 @@ console.log(a!==b);
  * undefined
  * 0
  * expect above evrything is true
+```js
 console.log(typeof false);
 console.log(typeof "");
 console.log(typeof null);
 console.log(typeof undefined);
 console.log(typeof 0);
+```
 
 # ternary operator
- * ans = condition ?  truth ? false
+ ans = condition ?  truth : false
 ```js
 let naam;
 let age=34;
