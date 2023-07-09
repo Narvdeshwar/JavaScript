@@ -33,7 +33,6 @@ fullName=fullName.slice(0,5)
 console.log(fullName);
 ```
 # primitive data types
-/**
  * number
  * string
  * booleans
@@ -41,7 +40,6 @@ console.log(fullName);
  * null
  * BigInt
  * Symbol
- */
 
 // to know the datatype of any variable we use `typeof' operator
 
@@ -51,15 +49,13 @@ console.log(typeof name1);
 ```
 
 # conversion of string to number and vice-versa
-/**
  * number to string
  * method 1= num=num+""
  * method 2= num=String(num)
  * string to number
  * method 1= num=+num
  * method 2= num=number(num)
- * 
- */
+
 
 ```js
 let num="55"
