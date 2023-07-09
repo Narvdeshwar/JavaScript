@@ -105,16 +105,14 @@ console.log(a!=b);
 console.log(a!==b);
 ```
 
-//truthy and falsey value
-//falsey value
-/**
+# truthy and falsey value
+## falsey value
  * false
  * ""
  * null
  * undefined
  * 0
  * expect above evrything is true
- */
 console.log(typeof false);
 console.log(typeof "");
 console.log(typeof null);
