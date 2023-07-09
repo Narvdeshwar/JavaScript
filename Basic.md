@@ -6,6 +6,7 @@ console.log("hello world");
 * var
 * let 
 * const
+
 ```js
 var name="ravi"
 console.log(name);
@@ -50,11 +51,11 @@ console.log(typeof name1);
 
 # conversion of string to number and vice-versa
  * number to string
- * method 1= num=num+""
- * method 2= num=String(num)
+ * method 1=> num=num+""
+ * method 2=> num=String(num)
  * string to number
- * method 1= num=+num
- * method 2= num=number(num)
+ * method 1=> num=+num
+ * method 2=> num=number(num)
 
 
 ```js
