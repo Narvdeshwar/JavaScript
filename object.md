@@ -3,6 +3,13 @@
  * arrays are used to store data but not suffient for real world entity
 ```js
 // Declaration of object
+// Syntax :
+const objectName={
+    propery1:value1,
+    propery2:value2,
+    propery3:value3
+}
+example : 
 const person={
     name:"ravi",
     email:"ravi@gmail.com",
