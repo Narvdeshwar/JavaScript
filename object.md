@@ -1,7 +1,7 @@
-/** Introduction to objects
+#  Introduction to objects
  * Objects are key value pair data
  * arrays are used to store data but not suffient for real world entity
- */
+```js
 // Declaration of object
 const person={
     name:"ravi",
