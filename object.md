@@ -18,12 +18,15 @@ const person={
 
 //accesing object value
 console.log("accesing object");
-console.log(person);
-console.log(person.name);
+console.log(person); // this print whole object
+console.log(person.name); //this print the particular value with given key
 console.log(person.email);
 console.log(person.gender);
 
 //inserting new key value pair
+/* syntax :
+    objectName.key=value
+*/
 person.mobile=8787205784
 
 console.log(person);
