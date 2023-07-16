@@ -1,10 +1,10 @@
-// introduction to array
+# introduction to array
 /**
  * array is collection of hetrogenous type means we can store any type of data in array.
  * array is mutable data type means when we add element the array the it updates the original array.
  * var a=[1,2,3,4] // numbered data type
  * var b=['sh','ee','de'] // string data type
- * var c=[1,1.2,'sfc'] //mixed 
+ * var c=[1,1.2,'sfc'] //mixed data type
  */
 var a=[1,2,3,4]
 console.log(a);
