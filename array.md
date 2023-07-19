@@ -4,6 +4,7 @@
  * var a=[1,2,3,4] // numbered data type
  * var b=['sh','ee','de'] // string data type
  * var c=[1,1.2,'sfc'] //mixed data type
+
 ``js
 var a=[1,2,3,4]
 console.log(a);
