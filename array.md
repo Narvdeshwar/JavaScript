@@ -110,3 +110,8 @@ console.log("-modern way array destructing-");
 console.log(fruits);
 const[f01,f02]=fruits;
 console.log(f01,f02);
+# array important method
+1. forEach
+2. map
+3. filter
+4. reduce 
