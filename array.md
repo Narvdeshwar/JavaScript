@@ -5,14 +5,15 @@
  * var b=['sh','ee','de'] // string data type
  * var c=[1,1.2,'sfc'] //mixed data type
 
-``js
+```js
 var a=[1,2,3,4]
 console.log(a);
 var b=['sh','ee','de']
 console.log(b);
 var c=[1,1.2,'sfc']
 console.log(c);
-```
+
+
 // adding element - push method is used to add element
 a.push(2)
 console.log("after adding elemt");
@@ -115,3 +116,4 @@ console.log(f01,f02);
 2. map
 3. filter
 4. reduce 
+```
