@@ -115,5 +115,7 @@ console.log(f01,f02);
 1. forEach
 2. map
 3. filter
-4. reduce 
+4. reduce
+5. sort
+6. find
 ```
