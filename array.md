@@ -43,13 +43,13 @@ console.log(shiftpopped);
  *  in this the reference address store in the STACK
  */
 
-/**
- * Cloning of array
- * there are three ways through which can clone the array
- * 1. by slice method
- * 2. by concat method
- * 3. spread operator
- */
+
+ # Cloning of array
+there are three ways through which can clone the array
+1. by slice method
+2. by concat method
+3. spread operator
+
 const fruits=["banana", "apple", "mango"]
 console.log("fruits array",fruits);
 const fruits1=fruits.slice(0);
