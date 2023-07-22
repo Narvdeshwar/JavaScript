@@ -44,7 +44,7 @@ console.log(shiftpopped);
  */
 
 
- # Cloning of array
+# Cloning of array
 there are three ways through which can clone the array
 1. by slice method
 2. by concat method
