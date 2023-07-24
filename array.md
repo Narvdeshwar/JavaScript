@@ -37,7 +37,7 @@ console.log(shiftpopped);
  */
 
 /**
- *  different between primitive and refernce data type wrt to storing variable in memory
+ *  different between primitive and refernce data type with respect to storing variable in memory
  *  primitive data type uses STACK to store the element
  *  whereas refernce data type uses HEAP memory 
  *  in this the reference address store in the STACK
