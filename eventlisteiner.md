@@ -9,3 +9,28 @@ The EventTarget interface is implemented by objects that can receive events and 
 3. bubbling phase
 # preventDefault()
 It prevent the default action of any event.
+``` html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventTarget</title>
+</head>
+<body>
+    <script>
+        let myDiv=document.createElement('div')
+        const myFunc=(e)=>{
+            console.log(e.target.textContent);
+        }
+        myDiv.addEventListener('click',myFunc)
+        for(let i=1;i<=50;i++){
+            let para=document.createElement('p')
+            para.textContent='this is para'+i
+            myDiv.appendChild(para)
+        }
+        document.body.append(myDiv)
+    </script>
+</body>
+</html>
+```
