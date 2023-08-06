@@ -18,6 +18,30 @@ It prevent the default action of any event.
     <title>EventTarget</title>
 </head>
 <body>
+    <a href="https://www.facebook.com">facebook</a>
+    <a href="https://www.facebook.com">facebook</a>
+    <a href="https://www.facebook.com">facebook</a>
+    <script>
+        const a=document.querySelectorAll('a');
+        const link=a[2];
+        link.addEventListener('click',(e)=>{
+            e.preventDefault();
+            console.log('3rd link will not work');
+        })
+
+    </script>
+</body>
+</html>
+```
+``` html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventTarget</title>
+</head>
+<body>
     <script>
         let myDiv=document.createElement('div')
         const myFunc=(e)=>{
