@@ -7,3 +7,4 @@ The EventTarget interface is implemented by objects that can receive events and 
 1. capturing phase
 2. at target phase
 3. bubbling phase
+# preventDefault() - It prevent the default action of any event.
