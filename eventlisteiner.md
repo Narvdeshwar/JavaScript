@@ -33,6 +33,7 @@ It prevent the default action of any event.
 </body>
 </html>
 ```
+# adding event listner programatically
 ``` html
 <!DOCTYPE html>
 <html lang="en">
