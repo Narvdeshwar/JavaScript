@@ -59,3 +59,30 @@ It prevent the default action of any event.
 </body>
 </html>
 ```
+# targetting particular html element eg for span element
+``` html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventTarget</title>
+</head>
+<body>
+    <div id="wrapper">
+        <p>hello <span>xyxspan</span></p>
+        <p>hello1 <span>yvkdj</span></p>
+        <p>hello2 <span>kdsuhfid</span></p>
+    </div>
+    <script>
+        document.querySelector('#wrapper').addEventListener('click',(e)=>{
+            if(e.target.nodeName==='SPAN'){
+                console.log(e.target.textContent);
+            }
+        })
+    </script>
+</body>
+</html>
+```
+
+# 
