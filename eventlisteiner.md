@@ -84,5 +84,51 @@ It prevent the default action of any event.
 </body>
 </html>
 ```
+# # performance on adding html element in document it increase time by repaint and reflow to prevent this we use fragment.
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let t1=performance.now();
+        // for(let i=0;i<1000;i++){
+        //     let para=document.createElement('p');
+        //     para.textContent='add text'+ i;
+        //     document.body.appendChild(para)
+        // }
+        // let t2=performance.now()
+        // console.log(t2-t1);
+
+        // let t3=performance.now();
+        // let myDiv=document.createElement('div');
+        // for(let i=0;i<1000;i++){
+        //     let para=document.createElement('p');
+        //     para.textContent='add text'+ i;
+        //     myDiv.appendChild(para)
+        // }
+        // document.body.appendChild(myDiv);
+        // let t4=performance.now();
+        // console.log(t4-t3);
+
+        let t5=performance.now()
+        let fragment=document.createDocumentFragment();
+        for(let i=0;i<1000;i++){
+            let para=document.createElement('p');
+            para.textContent='add text'+ i;
+            fragment.appendChild(para)
+        }
+        document.body.appendChild(fragment);
+        let t6=performance.now()
+        console.log(t6-t5);
+
+    </script>
+</body>
+</html>
+```
 
 # 
