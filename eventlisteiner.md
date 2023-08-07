@@ -84,7 +84,7 @@ It prevent the default action of any event.
 </body>
 </html>
 ```
-# # performance on adding html element in document it increase time by repaint and reflow to prevent this we use fragment.
+## performance on adding html element in document it increase time by repaint and reflow to prevent this we use fragment.
 ```html
 <!DOCTYPE html>
 <html lang="en">
