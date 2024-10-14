@@ -16,9 +16,9 @@ console.log(str.at(-20)); // undefined
 
 
 3. charAt() : this is used to retrieve the character at a specific position in a string. It only accepts positive integer values for the position and does not support negative indexing like the at() method.
-
+```js
 console.log(str.charAt(1)); // e
 console.log(str.charAt(-1)); // return nothing because it doesn't work at negative index
 console.log(str[4]); // O
 console.log(str[-1]); // undefined
-console.log();
+```
